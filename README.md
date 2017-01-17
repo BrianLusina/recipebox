@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/BrianLusina/recipebox.svg?branch=master)](https://travis-ci.org/BrianLusina/recipebox)
+
 # Recipe Box
 
 A simple React app for recipes!

@@ -4,7 +4,6 @@ node_js:
   - "6"
   - "6.1"
   - "5.11"
-  - "0.6"
 
 before_script:
   - npm install
@@ -14,7 +13,10 @@ script: npm run test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
+after_failure:
+  - bash <(curl -s https://codecov.io/bash)
+
 deploy:
   provider: surge
   project: ./build
-  domain: recipebox.surge.sh  
+  domain: recipebox.surge.sh
