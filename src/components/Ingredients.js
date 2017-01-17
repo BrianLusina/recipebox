@@ -1,7 +1,16 @@
 //**Lists all the ingredients for a recipe */
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
-export default class Ingredients extends Component{
+export default class IngredientList extends Component{
+
+    componentWillReceiveProps(){
+
+    }
+
+    shouldComponentUpdate(nextProps, nextState){
+
+    }
+
     render(){
         return(
             <div>
@@ -11,3 +20,6 @@ export default class Ingredients extends Component{
     }
 }
 
+IngredientList.propTypes = {
+    ingredients = PropTypes.array.isRequired;
+}

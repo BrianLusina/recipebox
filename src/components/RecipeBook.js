@@ -1,9 +1,13 @@
 //**holds all the recipes */
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 export default class RecipeBook extends Component{
     constructor(props){
         super(props);
+        // set the current state of the data
+        this.state = {
+            recipeArr = []
+        }
     }
 
     componentWillRecieveProps(){
@@ -21,5 +25,10 @@ export default class RecipeBook extends Component{
             </div>
         )
     }
+    
+}
+
+RecipeBook.propTypes = {
+    recipeData = PropTypes.object.isRequired
 }
 
