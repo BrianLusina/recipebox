@@ -21,5 +21,5 @@ export default class IngredientList extends Component{
 }
 
 IngredientList.propTypes = {
-    ingredients = PropTypes.array.isRequired;
+    ingredients : PropTypes.array.isRequired
 }
