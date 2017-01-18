@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import IngredientList from './Ingredients';
+import {Button, Modal } from 'react-materialize';
+
 
 /**Allows adding of ingredients to recipe book*/
 export default class RecipeAdd extends Component{
@@ -12,18 +14,15 @@ export default class RecipeAdd extends Component{
     render(){
         return(
             <div>
-                <a className="waves-effect waves-light btn" href="#modal1">Modal</a>
-                
-                <div id="modal1" className="modal">
-                    <div className="modal-content">
-                        <h4>Modal Header</h4>
-                        <p>A bunch of text</p>
-                    </div>
-                    
-                    <div className="modal-footer">
-                        <a href="#!" className=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-                    </div>
-                </div>            
+                <Modal
+                    header='Modal Header'
+                    trigger={
+                        <Button waves='light'>MODAL</Button>
+                    }>
+                    <p>
+                    labore et dolore magna aliqu
+                    </p>
+                </Modal>
             </div>
         )
     }
