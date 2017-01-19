@@ -1,3 +1,5 @@
+/*eslint-disable */
+
 //**Lists all the ingredients for a recipe */
 import React, { Component, PropTypes } from 'react';
 

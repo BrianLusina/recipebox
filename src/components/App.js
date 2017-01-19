@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../svg/logo.svg';
 import '../styles/App.css';
 import RecipeBook from './RecipeBook';
 import RecipeAdd from './RecipeAdd';

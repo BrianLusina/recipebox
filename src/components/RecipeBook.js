@@ -1,3 +1,4 @@
+/*eslint-disable */
 //**holds all the recipes */
 import React, { Component, PropTypes } from 'react';
 
@@ -29,6 +30,6 @@ export default class RecipeBook extends Component{
 }
 
 RecipeBook.propTypes = {
-    recipeData : PropTypes.object.isRequired
+    //recipeData : PropTypes.object.isRequired
 }
 

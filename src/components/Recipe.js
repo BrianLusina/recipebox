@@ -1,3 +1,5 @@
+/*eslint-disable */
+
 //**This is the display for a single recipe */
 import React, { Component, PropTypes } from 'react';
 
