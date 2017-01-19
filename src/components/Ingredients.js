@@ -4,9 +4,14 @@
 import React, { Component, PropTypes } from 'react';
 
 export default class IngredientList extends Component{
+    constructor(props){
+        super(props);
 
-    componentWillReceiveProps(){
+        this._createIngredientListView = this._createIngredientListView.bind(this);
+    }
 
+    componentWillReceiveProps(nextProps){
+        this._createIngredientListView(nextProps.ingredients);
     }
 
     shouldComponentUpdate(nextProps, nextState){
@@ -19,6 +24,10 @@ export default class IngredientList extends Component{
 
             </div>
         )
+    }
+
+    _createIngredientListView(props){
+        console.log(props);
     }
 }
 

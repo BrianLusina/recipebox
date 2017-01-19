@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import IngredientList from './Ingredients';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';
@@ -46,22 +45,22 @@ export default class RecipeAdd extends Component{
                         modal={true}
                         open={this.state.showModal}>
                         
-                        <form className="row">
-                            <TextField 
-                                className="column s12"
-                                floatingLabelText="Recipe name"
-                                style={{
-                                    width:"100%"
-                                }}/>
+                        <TextField
+                            id="recipeName"
+                            floatingLabelText="Recipe name"
+                            style={{
+                                width:"100%"
+                            }}/>
 
-                            <TextField
-                                className="column s12"                            
-                                hintText="Enter ingredients, seperated by commas"
-                                floatingLabelText="Ingredients"
-                                multiLine={true}
-                                rows={5}/>
-
-                        </form>
+                        <TextField
+                            id="ingredients"
+                            hintText="Enter ingredients, seperated by commas"
+                            floatingLabelText="Ingredients"
+                            multiLine={true}
+                            rows={5}
+                            style={{
+                                width:"100%"
+                            }}/>
                     </Dialog>
                 </div>
 
@@ -69,21 +68,33 @@ export default class RecipeAdd extends Component{
         )
     }
 
-    /**Opens a Modal to add recipes */
+    /**adds the recipes and passes them to RecipeBook */
     _addRecipe(){
+        // fetch the ingredients and the recipe name
+        var ingredients = document.getElementById("ingredients").value.split(",");
+        var recipeName = document.getElementById("recipeName").value;
+        
+        let recipe = {
+            name: recipeName,
+            ingredients: ingredients
+        }
 
+        // cache this data in local storage        
+        // check if the recipe is already in the localStorage
+        // update the ingredients if it is, otherwise add it
+        localStorage.setItem("recipeBook", JSON.stringify(recipe));
     }
 
 
-    /*Handles opening of the modal screen
-     */
+    /*Handles opening of the modal screen*/
     _handleOpen(){
         this.setState({showModal:true});
     }
 
-    /**Handles the closing of the modal */
+    /**Handles the closing of the modal and fetches the ingredients from the text fields*/
     _handleClose(){
         this.setState({showModal:false});
+        this._addRecipe();
     }
 
 }
