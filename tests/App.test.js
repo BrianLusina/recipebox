@@ -9,7 +9,6 @@ describe("App component tests", function(){
   });
 
   it('renders without crashing', () => {
-
     ReactDOM.render(<App />, div);
   });
 

@@ -5,7 +5,7 @@ import React, { Component, PropTypes } from 'react';
 
 export default class Recipe extends Component{
 
-    componentWillRecieveProps(){
+    componentWillReceiveProps(nextProps){
 
     }
 
