@@ -12,9 +12,10 @@
     "jasmine-node": "^1.14.5",
     "jest": "^18.1.0",
     "jest-cli": "^18.1.0",
+    "material-ui": "^0.16.7",
     "materialize-css": "^0.97.8",
-    "react-materialize": "^0.17.7",
     "react-scripts": "0.8.5",
+    "react-tap-event-plugin": "^2.0.1",
     "react-test-renderer": "^15.4.2",
     "surge": "^0.18.0",
     "sweetalert": "^1.1.3"
