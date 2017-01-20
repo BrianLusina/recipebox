@@ -6,7 +6,7 @@ describe("Ingredients component tests", function(){
   var div, component;
   beforeEach(()=>{
     div = document.createElement('div');
-    component = <Ingredients />
+    component = <Ingredients ingredients={[]}/>
   });
 
   it('renders without crashing', () => {

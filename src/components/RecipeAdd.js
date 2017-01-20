@@ -74,15 +74,21 @@ export default class RecipeAdd extends Component{
         var ingredients = document.getElementById("ingredients").value.split(",");
         var recipeName = document.getElementById("recipeName").value;
         
+        // store in an object to later update the local storage object
         let recipe = {
             name: recipeName,
             ingredients: ingredients
         }
 
-        // cache this data in local storage        
+        // cache this data in local storage
         // check if the recipe is already in the localStorage
         // update the ingredients if it is, otherwise add it
-        localStorage.setItem("recipeBook", JSON.stringify(recipe));
+        var storage = localStorage.getItem("recipeBook");
+        
+        for(var x in JSON.parse(storage)){
+            
+        }
+        console.log(JSON.parse(storage));
     }
 
 

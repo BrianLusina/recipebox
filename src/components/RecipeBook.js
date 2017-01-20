@@ -7,7 +7,7 @@ export default class RecipeBook extends Component{
         super(props);
         // set the current state of the data
         this.state = {
-            recipeArr : []
+            
         }
     }
 
@@ -28,8 +28,3 @@ export default class RecipeBook extends Component{
     }
 
 }
-
-RecipeBook.propTypes = {
-    //recipeData : PropTypes.object.isRequired
-}
-
