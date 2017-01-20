@@ -5,7 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 describe("App component tests", function(){
   var div;
-  const AppComponent;
+  var AppComponent;
   beforeEach(()=>{
     div = document.createElement('div');
     AppComponent = () => (
