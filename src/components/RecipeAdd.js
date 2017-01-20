@@ -71,8 +71,8 @@ export default class RecipeAdd extends Component{
     /**adds the recipes and passes them to RecipeBook */
     _addRecipe(){
         // fetch the ingredients and the recipe name
-        var ingredients = document.getElementById("ingredients").value.split(",");
         var recipeName = document.getElementById("recipeName").value;
+        var ingredients = document.getElementById("ingredients").value.split(",");
         
         // store in an object to later update the local storage object
         let recipe = {
@@ -81,14 +81,17 @@ export default class RecipeAdd extends Component{
         }
 
         // cache this data in local storage
-        // check if the recipe is already in the localStorage
-        // update the ingredients if it is, otherwise add it
-        var storage = localStorage.getItem("recipeBook");
+        var storage = JSON.parse(localStorage.getItem("recipeBook"));
         
-        for(var x in JSON.parse(storage)){
-            
+        // check if the recipe is already in the localStorage
+        for(var x in storage){
+            if (storage[x].title.toLowerCase() ===  recipeName){
+                // update the ingredients if it is, otherwise add it
+                storage[x].ingredients + ingredients;
+            }else{
+                
+            }
         }
-        console.log(JSON.parse(storage));
     }
 
 
