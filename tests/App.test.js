@@ -17,6 +17,11 @@ describe("App component tests", function(){
     );
   });
 
+  afterEach(()=>{
+    //localStorage.clear();
+    localStorage.itemInsertionCallback == null;
+  });
+
   it('renders without crashing', () => {
     ReactDOM.render(<AppComponent />, div);
   });

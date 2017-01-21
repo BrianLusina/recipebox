@@ -20,6 +20,7 @@
     "react-scripts": "0.8.5",
     "react-tap-event-plugin": "^2.0.1",
     "react-test-renderer": "^15.4.2",
+    "react-treeview-mui": "^0.1.2",
     "sinon": "^1.17.7",
     "surge": "^0.18.0"
   },

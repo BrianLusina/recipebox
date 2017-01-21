@@ -7,12 +7,10 @@ export default class RecipeBook extends Component{
         super(props);
         // set the current state of the data
         this.state = {
-            
+            recipes: JSON.parse(localStorage.getItem("recipeBook"))
         }
-    }
 
-    componentWillReceiveProps(){
-
+        this._renderRecipes = this._renderRecipes.bind(this);
     }
     
     shouldComponentUpdate(nextProps, nextState){
@@ -20,11 +18,18 @@ export default class RecipeBook extends Component{
     }
 
     render(){
+        this._renderRecipes();
         return(
             <div>
-
             </div>
         )
     }
 
+    // loops through the local storage object and displays the items for each recipes
+    _renderRecipes(){
+        let rec = this.state.recipes;
+        for(var x in rec){
+            console.log(rec[x]);
+        }
+    }
 }
