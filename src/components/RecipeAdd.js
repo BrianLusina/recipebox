@@ -81,19 +81,26 @@ export default class RecipeAdd extends Component{
         }
 
         // cache this data in local storage
-        var storage = JSON.parse(localStorage.getItem("recipeBook"));
-        
+        var storage = JSON.parse(localStorage.getItem("recipeBook")) || [];
+        var exists = false;
+
         // check if the recipe is already in the localStorage
-        for(var x in storage){
-            if (storage[x].title.toLowerCase() ===  recipeName){
-                // update the ingredients if it is, otherwise add it
-                storage[x].ingredients + ingredients;
-            }else{
-                
+        for(var i = 0; i < storage.length; i++){
+            if(storage[i].title == recipeName){
+                exists = true;
+                break;
             }
         }
-    }
 
+        // if it does not exist add it to the storage
+        if(!exists){
+            if(recipeName.length < 1) recipeName = "Untitled";
+            storage.push(recipe);
+        }
+        
+        //update the local storage
+        localStorage.setItem("recipeBook", JSON.stringify(storage));
+    }
 
     /*Handles opening of the modal screen*/
     _handleOpen(){
