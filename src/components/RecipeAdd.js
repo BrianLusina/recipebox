@@ -86,7 +86,7 @@ export default class RecipeAdd extends Component{
 
         // check if the recipe is already in the localStorage
         for(var i = 0; i < storage.length; i++){
-            if(storage[i].title == recipeName){
+            if(storage[i].title === recipeName){
                 exists = true;
                 break;
             }

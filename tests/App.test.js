@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '../src/components/App';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import localStorage from 'mock-local-storage';
+
 
 describe("App component tests", function(){
   var div;
