@@ -8,7 +8,7 @@ coverage
 
 # production
 build
-
+init.sh
 # misc
 .DS_Store
 .env

@@ -1,8 +1,9 @@
+# Recipe Box
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3240ed89a234218adf0e31868e76089)](https://www.codacy.com/app/BrianLusina/recipebox?utm_source=github.com&utm_medium=referral&utm_content=BrianLusina/recipebox&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/BrianLusina/recipebox.svg?branch=master)](https://travis-ci.org/BrianLusina/recipebox)
 [![CircleCI](https://circleci.com/gh/BrianLusina/recipebox.svg?style=svg)](https://circleci.com/gh/BrianLusina/recipebox)
-
-# Recipe Box
+[![codecov](https://codecov.io/gh/BrianLusina/recipebox/branch/master/graph/badge.svg)](https://codecov.io/gh/BrianLusina/recipebox)
 
 A simple React app for recipes!
 

@@ -1,4 +1,5 @@
 language: node_js
+sudo: false
 
 node_js:
   - "6"
@@ -11,9 +12,6 @@ before_script:
 script: npm run test
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
-
-after_failure:
   - bash <(curl -s https://codecov.io/bash)
 
 deploy:
