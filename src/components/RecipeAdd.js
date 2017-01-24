@@ -76,7 +76,7 @@ export default class RecipeAdd extends Component{
         
         // store in an object to later update the local storage object
         let recipe = {
-            name: recipeName,
+            title: recipeName,
             ingredients: ingredients
         }
 

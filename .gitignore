@@ -13,3 +13,4 @@ init.sh
 .DS_Store
 .env
 npm-debug.log
+.vscode/
