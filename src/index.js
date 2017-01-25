@@ -2,6 +2,9 @@ import React from 'react';
 import { render }from 'react-dom';
 import App from './components/App';
 import './styles/index.css';
+import './styles/style.css';
+import './styles/reset.css';
+
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 const AppComponent = () => (

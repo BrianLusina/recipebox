@@ -19,7 +19,6 @@ export default class RecipeBook extends Component{
         if(nextState.recipes === this.state.recipes){
             return false;
         }else{
-            this._renderRecipes();
             return true;
         }
     }
@@ -38,7 +37,6 @@ export default class RecipeBook extends Component{
                 recipes: recipes
             });
         }
-        this._renderRecipes();
     }
 
     // loops through the local storage object and displays the items for each recipes
