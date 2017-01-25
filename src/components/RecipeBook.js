@@ -4,8 +4,11 @@ import { MuiTreeList } from 'react-treeview-mui';
 
 
 export default class RecipeBook extends Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
+        this.state = {
+            recipeViews : []
+        }
 
         this._renderRecipes = this._renderRecipes.bind(this);
     }
@@ -17,7 +20,8 @@ export default class RecipeBook extends Component{
 
     // checks whether the component should update based on the props and the state
     shouldComponentUpdate(nextProps, nextState){
-        if(this.props.recipeProps ===  nextProps.recipeProps){
+        if(this.props.recipeProps ===  nextProps.recipeProps && 
+        this.state.recipeViews === nextState.recipeViews){
             return false;
         }else{
             return true;
@@ -26,40 +30,38 @@ export default class RecipeBook extends Component{
 
     render(){
         return(
-            this._renderRecipes(this.props.recipeProps)
+            <MuiTreeList 
+                listItems={this.state.recipeViews}
+                contentKey={"title"}
+            />
         )
     }
 
     /** Checks if the component updated and sets the state*/
     componentDidUpdate(prevProps, prevState){
         if(this.state.recipes !== prevState.recipes){
-            let recipes = JSON.parse(localStorage.getItem("recipeBook"))
+            let recipeViews = this._renderRecipes(prevProps);
             this.setState({
-                recipes: recipes
+                recipeViews: recipeViews
             });
         }
     }
 
     // loops through the local storage object and displays the items for each recipes
-    _renderRecipes(props){
-        var recipes = JSON.parse(localStorage.getItem("recipeBook"));
-        // array which will store each item
-        var items = [];
+    _renderRecipes(receivedProps){
+        var recipeViews= receivedProps.recipeProps.map((item, indx)=>{
+            // for each recipe item, set the properties for the accordion
+            item.depth = 1;
+            item.children = item.ingredients;
+            item.parentIndex = 0;
+            item.disabled = false;
+            return item;
+        });
 
-        // for each recipe item, set the properties for the accordion
-        // eslint-disable-next-line
-        for(var x in recipes){
-            recipes[x].depth = 1;
-            recipes[x].children = recipes[x].ingredients;
-            recipes[x].parentIndex = 0;
-            recipes[x].disabled = false;
-            items.push(recipes[x]);
-        }
-
-        return <MuiTreeList 
-            listItems={items}
-            contentKey={"title"}
-        />
+        // update the state
+        this.setState({
+            recipeViews : recipeViews
+        })
     }
 }
 

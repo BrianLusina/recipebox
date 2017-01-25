@@ -10,7 +10,8 @@ export default class RecipeAdd extends Component{
     constructor(){
         super();
         this.state = {
-            showModal :false
+            showModal :false,
+            updatedRecipe:[]
         }
 
         this._handleOpen = this._handleOpen.bind(this);
@@ -37,6 +38,7 @@ export default class RecipeAdd extends Component{
 
         return(
             <div>
+                <RecipeBook recipeProps={this.state.updatedRecipe}/>
                 <div>
                     <RaisedButton label="Add Recipe" onTouchTap={this._handleOpen} />
                     <Dialog
@@ -105,9 +107,12 @@ export default class RecipeAdd extends Component{
         
         //update the local storage
         localStorage.setItem("recipeBook", JSON.stringify(storage));
-
-        //eslint-disable-next-line
-        <RecipeBook recipeProps={JSON.parse(localStorage["recipeBook"])}/>
+        
+        // update the recipe
+        this.setState({
+            updatedRecipe: JSON.parse(localStorage["recipeBook"])
+        });
+        
     }
 
     /*Handles opening of the modal screen*/
