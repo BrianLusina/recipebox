@@ -3,7 +3,7 @@ import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
-
+import RecipeBook from './RecipeBook';
 
 /**Allows adding of ingredients to recipe book via modal window*/
 export default class RecipeAdd extends Component{
@@ -73,7 +73,12 @@ export default class RecipeAdd extends Component{
         // fetch the ingredients and the recipe name
         var recipeName = document.getElementById("recipeName").value;
         var ingredients = document.getElementById("ingredients").value.split(",");
-        
+
+        // remove all white space from each word in the ingredient list
+        ingredients = ingredients.map(function(e){
+            return e.trim();
+        });
+
         // store in an object to later update the local storage object
         let recipe = {
             title: recipeName,
@@ -100,6 +105,9 @@ export default class RecipeAdd extends Component{
         
         //update the local storage
         localStorage.setItem("recipeBook", JSON.stringify(storage));
+
+        //eslint-disable-next-line
+        <RecipeBook recipeProps={JSON.parse(localStorage["recipeBook"])}/>
     }
 
     /*Handles opening of the modal screen*/

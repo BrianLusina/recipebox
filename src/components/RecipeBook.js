@@ -6,22 +6,18 @@ import { MuiTreeList } from 'react-treeview-mui';
 export default class RecipeBook extends Component{
     constructor(){
         super();
-        // set the current state of the data
-        this.state = {
-            recipes: JSON.parse(localStorage.getItem("recipeBook"))
-        }
 
         this._renderRecipes = this._renderRecipes.bind(this);
     }
 
     // called when receiving props
-    componentWillRecieveProps(nextProps){
+    componentWillReceiveProps(nextProps){
         this._renderRecipes(nextProps);
     }
 
     // checks whether the component should update based on the props and the state
     shouldComponentUpdate(nextProps, nextState){
-        if(this.props.recipeProps ===  nextProps.recipeProps && nextState.recipes === this.state.recipes){
+        if(this.props.recipeProps ===  nextProps.recipeProps){
             return false;
         }else{
             return true;
@@ -69,5 +65,5 @@ export default class RecipeBook extends Component{
 
 // set the required prop types for the RecipeBook object
 RecipeBook.propTypes = {
-    recipeProps = PropTypes.object.isRequired
+    recipeProps : PropTypes.array.isRequired
 }

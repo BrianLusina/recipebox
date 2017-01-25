@@ -12,8 +12,8 @@ class App extends Component {
     // http://stackoverflow.com/a/34015469/988941  
     injectTapEventPlugin();
 
-    this.state = {
-      initRecipe : [
+    // sets the initial recipe
+    var r = [
         { title: "Pumpkin Pie",
           ingredients: ["Pumpkin Puree", "Sweetened Condensed Milk", "Eggs", "Pumpkin Pie Spice", "Pie Crust"]       
         },
@@ -23,11 +23,14 @@ class App extends Component {
         
         { title: "Onion Pie", 
         ingredients: ["Onion", "Pie Crust", "Sounds Yummy right?"]}
-      ]
-    }
+      ];
+      
+      localStorage.setItem("recipeBook", JSON.stringify(r));
     
-    // sets the initial recipe
-    localStorage.setItem("recipeBook", JSON.stringify(this.state.initRecipe));
+    this.state = {
+      initRecipe : JSON.parse(localStorage.getItem("recipeBook"))
+    }
+
   }
 
   render() {
