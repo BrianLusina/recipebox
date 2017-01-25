@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <RecipeBook />
+        <RecipeBook recipeProps={this.state.initRecipe}/>
         <RecipeAdd />
       </div>
     );

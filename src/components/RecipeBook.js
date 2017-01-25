@@ -1,5 +1,5 @@
 //**holds all the recipes */
-import React, { Component} from 'react';
+import React, { Component, PropTypes} from 'react';
 import { MuiTreeList } from 'react-treeview-mui';
 
 
@@ -13,10 +13,15 @@ export default class RecipeBook extends Component{
 
         this._renderRecipes = this._renderRecipes.bind(this);
     }
-    
-    // checks whether the component should update
+
+    // called when receiving props
+    componentWillRecieveProps(nextProps){
+        this._renderRecipes(nextProps);
+    }
+
+    // checks whether the component should update based on the props and the state
     shouldComponentUpdate(nextProps, nextState){
-        if(nextState.recipes === this.state.recipes){
+        if(this.props.recipeProps ===  nextProps.recipeProps && nextState.recipes === this.state.recipes){
             return false;
         }else{
             return true;
@@ -25,7 +30,7 @@ export default class RecipeBook extends Component{
 
     render(){
         return(
-            this._renderRecipes()
+            this._renderRecipes(this.props.recipeProps)
         )
     }
 
@@ -40,7 +45,7 @@ export default class RecipeBook extends Component{
     }
 
     // loops through the local storage object and displays the items for each recipes
-    _renderRecipes(){
+    _renderRecipes(props){
         var recipes = JSON.parse(localStorage.getItem("recipeBook"));
         // array which will store each item
         var items = [];
@@ -60,4 +65,9 @@ export default class RecipeBook extends Component{
             contentKey={"title"}
         />
     }
+}
+
+// set the required prop types for the RecipeBook object
+RecipeBook.propTypes = {
+    recipeProps = PropTypes.object.isRequired
 }
