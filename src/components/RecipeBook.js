@@ -1,7 +1,5 @@
 //**holds all the recipes */
 import React, { Component, PropTypes} from 'react';
-import { MuiTreeList } from 'react-treeview-mui';
-
 
 export default class RecipeBook extends Component{
     constructor(props){
@@ -30,10 +28,9 @@ export default class RecipeBook extends Component{
 
     render(){
         return(
-            <MuiTreeList 
-                listItems={this.state.recipeViews}
-                contentKey={"title"}
-            />
+            <ul className="cd-accordion-menu animated">
+                {this.state.recipeViews}
+            </ul>
         )
     }
 
@@ -50,14 +47,17 @@ export default class RecipeBook extends Component{
     // loops through the local storage object and displays the items for each recipes
     _renderRecipes(receivedProps){
         var recipeViews= receivedProps.recipeProps.map((item, indx)=>{
-            // for each recipe item, set the properties for the accordion
-            item.depth = 1;
-            item.children = item.ingredients;
-            item.parentIndex = 0;
-            item.disabled = false;
-            return item;
+            return<li key={indx} className="has-children">
+    			        <input type="checkbox" name ={"group-"+ indx} id={"group-"+indx}/>
+	    		        <label htmlFor={"group-"+indx}>{item.title}</label>
+                        <ul>{item.ingredients.map(listView)}</ul>
+                        
+                </li>
         });
-
+        
+        function listView(ingredient, indx){
+            return (<li key={indx}><a href="#0">{ingredient}</a></li>)
+        }
         // update the state
         this.setState({
             recipeViews : recipeViews
