@@ -48,7 +48,7 @@ export default class RecipeBook extends Component{
     _renderRecipes(receivedProps){
         var recipeViews= receivedProps.recipeProps.map((item, indx)=>{
             return<li key={indx} className="has-children">
-    			        <input type="checkbox" name ={"group-"+ indx} id={"group-"+indx}/>
+    			        <input type="checkbox" name={"group-"+ indx} id={"group-"+indx}/>
 	    		        <label htmlFor={"group-"+indx}>{item.title}</label>
                         <ul>{item.ingredients.map(listView)}</ul>
                         
