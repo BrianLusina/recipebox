@@ -1,0 +1,939 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - babel-jest > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > eslint > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > eslint-plugin-import > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-eslint > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > eslint-plugin-import > eslint-import-resolver-node > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > react-dev-utils > sockjs-client > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > sockjs-client > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2016 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > compression > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > serve-index > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > finalhandler > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > send > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > serve-static > send > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-04-21T07:22:06.156Z'
+  'npm:extend:20180424':
+    - jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-04-21T07:22:06.156Z'
+  'npm:hoek:20180212':
+    - jest-cli > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-21T07:22:06.156Z'
+  'npm:mime:20170907':
+    - surge > request > form-data > mime:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > webpack-dev-middleware > mime:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > send > mime:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > serve-static > send > mime:
+        patched: '2020-04-21T07:22:06.156Z'
+  'npm:ms:20170412':
+    - babel-jest > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > eslint > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > eslint-plugin-import > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-eslint > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > eslint-plugin-import > eslint-import-resolver-node > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > react-dev-utils > sockjs-client > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > sockjs-client > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-es2015-parameters > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2016 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2017 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > babel-preset-react-app > babel-preset-latest > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > compression > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > serve-index > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > send > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > finalhandler > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > send > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > serve-static > send > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack-dev-server > express > serve-static > send > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2020-04-21T07:22:06.156Z'
+  'npm:qs:20170213':
+    - jest-cli > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2020-04-21T07:22:06.156Z'
+  'npm:tough-cookie:20170905':
+    - jest-cli > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2020-04-21T07:22:06.156Z'
+  'npm:tunnel-agent:20170305':
+    - jest-cli > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2020-04-21T07:22:06.156Z'
