@@ -9,7 +9,7 @@
     "codacy-coverage": "^2.0.0",
     "codecov": "^3.6.5",
     "enzyme": "^2.7.0",
-    "git-scripts": "^0.2.1",
+    "git-scripts": "^0.4.3",
     "istanbul": "^0.4.5",
     "jasmine-node": "^1.14.5",
     "jest": "^18.1.0",
