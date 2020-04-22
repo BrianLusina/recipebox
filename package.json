@@ -14,7 +14,7 @@
     "jasmine-node": "^1.14.5",
     "jest": "^18.1.0",
     "jest-cli": "^18.1.0",
-    "material-ui": "^0.16.7",
+    "material-ui": "^0.20.0",
     "mocha": "^3.2.0",
     "mock-local-storage": "^1.1.12",
     "react-addons-css-transition-group": "^15.4.2",
