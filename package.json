@@ -19,7 +19,7 @@
     "mock-local-storage": "^1.1.12",
     "react-addons-css-transition-group": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-scripts": "0.8.5",
+    "react-scripts": "0.9.5",
     "react-tap-event-plugin": "^2.0.1",
     "react-test-renderer": "^15.4.2",
     "react-treeview-mui": "^0.1.2",
