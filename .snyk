@@ -1708,3 +1708,13 @@ patch:
         patched: '2020-05-01T07:21:12.435Z'
     - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
         patched: '2020-05-01T07:21:12.435Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-06-09T05:05:30.131Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-06-09T05:05:30.131Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-06-09T05:05:30.131Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-06-09T05:05:30.131Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-06-09T05:05:30.131Z'
