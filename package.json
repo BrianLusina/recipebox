@@ -29,7 +29,7 @@
   "dependencies": {
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
-    "snyk": "^1.401.0"
+    "snyk": "^1.406.0"
   },
   "git": {
     "scripts": {
