@@ -1736,3 +1736,5 @@ patch:
         patched: '2020-09-22T00:07:02.194Z'
     - snyk > snyk-mvn-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-09-22T00:07:02.194Z'
+    - snyk > snyk-docker-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-10-06T04:41:22.681Z'
