@@ -21,14 +21,14 @@
     "react-addons-test-utils": "^15.4.2",
     "react-scripts": "0.9.5",
     "react-tap-event-plugin": "^2.0.1",
-    "react-test-renderer": "^15.4.2",
+    "react-test-renderer": "^16.14.0",
     "react-treeview-mui": "^0.1.2",
     "sinon": "^1.17.7",
     "surge": "^0.21.6"
   },
   "dependencies": {
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "snyk": "^1.415.0"
   },
   "git": {
