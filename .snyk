@@ -1738,3 +1738,7 @@ patch:
         patched: '2020-09-22T00:07:02.194Z'
     - snyk > snyk-docker-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-10-06T04:41:22.681Z'
+    - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-11-10T12:22:22.271Z'
+    - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-11-10T12:22:22.271Z'
