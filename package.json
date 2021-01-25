@@ -16,7 +16,7 @@
     "jest-cli": "^26.5.0",
     "material-ui": "^0.20.0",
     "mocha": "^3.2.0",
-    "mock-local-storage": "^1.1.15",
+    "mock-local-storage": "^1.1.17",
     "react-addons-css-transition-group": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
     "react-scripts": "0.9.5",
