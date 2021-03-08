@@ -24,7 +24,7 @@
     "react-test-renderer": "^16.14.0",
     "react-treeview-mui": "^0.1.2",
     "sinon": "^1.17.7",
-    "surge": "^0.21.7"
+    "surge": "^0.22.0"
   },
   "dependencies": {
     "react": "^16.14.0",
