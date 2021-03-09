@@ -9041,14 +9041,14 @@ process@^0.11.10:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
 
-progress@1.1.8, progress@^1.1.8:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
-
-progress@^2.0.3:
+progress@2.0.3, progress@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
+
+progress@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
 promise-queue@^2.2.5:
   version "2.2.5"
@@ -10740,9 +10740,10 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
-split@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/split/-/split-0.3.1.tgz#cebcf142bf61bbb64b141628e6db482a2914654c"
+split@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/split/-/split-1.0.1.tgz#605bd9be303aa59fb35f9229fbea0ddec9ea07d9"
+  integrity sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==
   dependencies:
     through "2"
 
@@ -11077,10 +11078,27 @@ surge-ignore@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/surge-ignore/-/surge-ignore-0.2.0.tgz#5a7f8a20a71188cf9e75a2cfe8eb182de90daf3b"
 
-surge@^0.21.7:
-  version "0.21.7"
-  resolved "https://registry.yarnpkg.com/surge/-/surge-0.21.7.tgz#30fa45ac7eea9ae0e14f7acf12b78feae4a34970"
-  integrity sha512-XcMY2Z3I4kBZ1zVTOkeKmTcnAy/r9Mnu87+/3fAaN6ZCVnNy4Qtdh6ai77NwyORIltRP1cOn05sAi+nYoy5taQ==
+surge-ignore@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/surge-ignore/-/surge-ignore-0.3.0.tgz#3044e6ca2330f358401e285f900c6d28cf5edc2e"
+  integrity sha1-METmyiMw81hAHihfkAxtKM9e3C4=
+
+surge-sdk@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/surge-sdk/-/surge-sdk-0.3.0.tgz#ccb69e83123f5ffee2fa5149b98567a552bd48d8"
+  integrity sha512-x9/hfnBO5vbh1tan1QYqR3SLoI5J4On5n3YEQMwuQ+dKkp8qySmFCIIXW7K6ZN0nXCxkLgDILNEk4bOXXVqJ/g==
+  dependencies:
+    request "^2.88.0"
+    split "^1.0.1"
+    surge-fstream-ignore "^1.0.6"
+    surge-ignore "^0.3.0"
+    tarr "^1.1.0"
+    zlib "^1.0.5"
+
+surge@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/surge/-/surge-0.22.0.tgz#a221ca17102cb6b7cbc538ad9d7b30ec35709462"
+  integrity sha512-yQ+tbJtS/fvTgVzUqUw84mzxxfNACEtCM0C06CbiYh9ddm+FXD/y3DPnDlAoDcq7Qp0CwJYV3PzBoQh/CCgcUw==
   dependencies:
     cli-table3 "^0.5.1"
     colors "^1.4.0"
@@ -11089,13 +11107,11 @@ surge@^0.21.7:
     minimist "1.2.3"
     moniker "0.1.2"
     netrc "0.1.4"
-    progress "1.1.8"
+    progress "2.0.3"
     read "1.0.5"
     request "^2.88.0"
-    split "0.3.1"
-    surge-fstream-ignore "^1.0.6"
     surge-ignore "0.2.0"
-    tarr "1.1.0"
+    surge-sdk "0.3.0"
     url-parse-as-address "1.0.0"
 
 svgo@^0.7.0:
@@ -11177,7 +11193,7 @@ tar@~2.2.1:
     fstream "^1.0.12"
     inherits "2"
 
-tarr@1.1.0:
+tarr@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/tarr/-/tarr-1.1.0.tgz#d7a9532ce97f08f5200b78ae0a82a6883173c8c8"
   integrity sha512-tENbQ43IQckay71stp1p1lljRhoEZpZk10FzEZKW2tJcMcnLwV3CfZdxBAERlH6nwnFvnHMS9eJOJl6IzSsG0g==
@@ -12236,3 +12252,8 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
+
+zlib@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/zlib/-/zlib-1.0.5.tgz#6e7c972fc371c645a6afb03ab14769def114fcc0"
+  integrity sha1-bnyXL8NxxkWmr7A6sUdp3vEU/MA=
