@@ -1742,6 +1742,24 @@ patch:
         patched: '2020-11-10T12:22:22.271Z'
     - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-11-10T12:22:22.271Z'
+    - react-scripts > inquirer > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > react-error-overlay > react-dev-utils > inquirer > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-dynamic-import-node > babel-types > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > babel-types > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > babel-traverse > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2021-03-09T13:20:01.577Z'
   'npm:debug:20170905':
     - jest-cli > @jest/core > jest-haste-map > sane > micromatch > snapdragon > debug:
         patched: '2020-11-24T05:13:41.979Z'
@@ -4723,6 +4741,30 @@ patch:
         patched: '2020-11-24T05:13:41.979Z'
     - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
         patched: '2020-11-24T05:13:41.979Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > braces > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2021-03-09T13:20:01.577Z'
   'npm:ms:20170412':
     - jest-cli > @jest/core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
         patched: '2020-11-24T05:13:41.979Z'
@@ -7704,3 +7746,48 @@ patch:
         patched: '2020-11-24T05:13:41.979Z'
     - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
         patched: '2020-11-24T05:13:41.979Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > braces > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2021-03-09T13:20:01.577Z'
+  'npm:extend:20180424':
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-03-09T13:20:01.577Z'
+  'npm:hoek:20180212':
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-03-09T13:20:01.577Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-09T13:20:01.577Z'
+  'npm:qs:20170213':
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2021-03-09T13:20:01.577Z'
+  'npm:tough-cookie:20170905':
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2021-03-09T13:20:01.577Z'
+  'npm:tunnel-agent:20170305':
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2021-03-09T13:20:01.577Z'
